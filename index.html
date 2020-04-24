@@ -13,9 +13,8 @@
     window.$docsify = {
       el: '#app',
       auto2top: true,
-      // coverpage: "coverpage.md",
       onlyCover: false,
-      loadSidebar: "sidebar.md",
+      loadSidebar: "./sidebar.md",
       mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 2,
@@ -24,6 +23,7 @@
       markdown: {
         smartypants: true
       },
+      relativePath: true,
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
